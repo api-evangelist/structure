@@ -1,8 +1,25 @@
 aid: structure
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/structure.png
 name: Structure
-description: 'Structure is a company surfaced as a portfolio company of polychain and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Structure (Structure Financial Inc.) is a Web3 platform for designing, backtesting,
+  and deploying fully automated, permissionless crypto trading strategies without writing code.
+  Its visual strategy editor and AI-assisted code generation let users build algorithmic strategies
+  that compile to Rust and deploy non-custodially to decentralized exchanges including Hyperliquid,
+  Drift, and Jupiter; strategies receive trading-only permissions so funds never leave the user''s
+  vault. The company documents live, paper, and backtest execution paths and references MCP-agent
+  and code-based access alongside its no-code visual interface. Founded by MIT and Jump Trading
+  alumni and backed by the investors behind Coinbase and Solana.'
 url: https://raw.githubusercontent.com/api-evangelist/structure/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Cryptocurrency
+- DeFi
+- Algorithmic Trading
+- Web3
+- Blockchain
+- Trading
 apis: []
+common:
+- type: DomainSecurity
+  url: security/structure-domain-security.yml
+- type: Website
+  url: https://www.structure.fi
+- type: Documentation
+  url: https://docs.structure.fi
+- type: GettingStarted
+  url: https://docs.structure.fi/guides/getting-started/
+- type: Blog
+  url: https://www.structure.fi/blog
+- type: SignUp
+  url: https://www.structure.fi/#cta
+- type: Support
+  url: mailto:support@structure.fi
+- type: TermsOfService
+  url: https://www.structure.fi/tos
+- type: PrivacyPolicy
+  url: https://www.structure.fi/privacy-policy
+- type: Twitter
+  url: https://x.com/structure_fi
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
